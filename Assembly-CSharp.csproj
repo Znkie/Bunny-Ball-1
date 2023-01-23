@@ -56,12 +56,12 @@
     <Analyzer Include="/Applications/Visual Studio (old).app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/SimpleRotate.cs" />
     <Compile Include="Assets/Scripts/DeathBox.cs" />
     <Compile Include="Assets/Scripts/Key.cs" />
+    <Compile Include="Assets/Scripts/SimpleRotate.cs" />
+    <Compile Include="Assets/Scripts/Player.cs" />
     <Compile Include="Assets/Scripts/GameManager.cs" />
     <Compile Include="Assets/SimpleParticlePack/Scripts/ParticleTester.cs" />
-    <Compile Include="Assets/Scripts/Player.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

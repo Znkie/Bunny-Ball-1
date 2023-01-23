@@ -1,0 +1,289 @@
+Unity Editor version:    2022.1.21f1 (9ac1ff5ca45b)
+Branch:                  2022.1/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6.7 (Build 20G630)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Users/game5/Desktop/2022.1.21f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+/Users/game5/Bunny Ball 1
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+50530
+Successfully changed project path to: /Users/game5/Bunny Ball 1
+/Users/game5/Bunny Ball 1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 64.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.21f1 (9ac1ff5ca45b)
+[Subsystems] Discovering subsystems at path /Users/game5/Desktop/2022.1.21f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/game5/Bunny Ball 1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+iMac preferred device: AMD Radeon Pro 5500 XT (high power)
+Metal devices available: 1
+0: AMD Radeon Pro 5500 XT (high power)
+Using device AMD Radeon Pro 5500 XT (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500 XT
+Initialize mono
+Mono path[0] = '/Users/game5/Desktop/2022.1.21f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/game5/Desktop/2022.1.21f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Users/game5/Desktop/2022.1.21f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56469
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/game5/Desktop/2022.1.21f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001128 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 63.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.630 seconds
+Domain Reload Profiling:
+	ReloadAssembly (631ms)
+		BeginReloadAssembly (60ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (459ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (132ms)
+				TypeCache.Initialize (132ms)
+					TypeCache.ScanAssembly (131ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002786 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/game5/Bunny Ball 1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/game5/Bunny Ball 1/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.086 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1087ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (846ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (312ms)
+				TypeCache.Initialize (307ms)
+					TypeCache.ScanAssembly (303ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (353ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Users/game5/Desktop/2022.1.21f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3406 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (46.1 KB). Loaded Objects now: 3866.
+Memory consumption went from 0.62 GB to 0.62 GB.
+Total: 3.445248 ms (FindLiveObjects: 0.279116 ms CreateObjectMapping: 0.337087 ms MarkObjects: 2.756317 ms  DeleteObjects: 0.072066 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6459.751836 seconds.
+  path: Assets/SimpleParticlePack/Resources/Directional/SimpleFlame2(Red).prefab
+  artifactKey: Guid(6c1de2b3c41b4411784f75bb6bd048ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleParticlePack/Resources/Directional/SimpleFlame2(Red).prefab using Guid(6c1de2b3c41b4411784f75bb6bd048ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c93e0e0ed2d4e6ea18bfd3be4ca027') in 2.444962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/SimpleParticlePack/Resources/Explosions/Flame2.prefab
+  artifactKey: Guid(07e0b48432a2942a4b04b88d70d29cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleParticlePack/Resources/Explosions/Flame2.prefab using Guid(07e0b48432a2942a4b04b88d70d29cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e58b463f62969fedd314599bfac71d0') in 0.010144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/SimpleParticlePack/Resources/Directional/Torch(Blue).prefab
+  artifactKey: Guid(8d82766463e42433aa5e49b70572f852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleParticlePack/Resources/Directional/Torch(Blue).prefab using Guid(8d82766463e42433aa5e49b70572f852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c0329523959e55eecfe3245b2803b6') in 0.009125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/SimpleParticlePack/Resources/Explosions/Explosion03b.prefab
+  artifactKey: Guid(d33904b3aaa63498c9be5ef9d2e80a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleParticlePack/Resources/Explosions/Explosion03b.prefab using Guid(d33904b3aaa63498c9be5ef9d2e80a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c65df53edf9737c6be8e75dbd65b018') in 0.009429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/SimpleParticlePack/Resources/Explosions/FlashRingFlame04.prefab
+  artifactKey: Guid(ac8c1c4fd62d44c809ced6a1696a9d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleParticlePack/Resources/Explosions/FlashRingFlame04.prefab using Guid(ac8c1c4fd62d44c809ced6a1696a9d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e7490c45385d738a91823a9900ae7e') in 0.071873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/SimpleParticlePack/Resources/Flares/Flare02-MultiColor.prefab
+  artifactKey: Guid(46c7347ec6bbf423d9905752824ca1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleParticlePack/Resources/Flares/Flare02-MultiColor.prefab using Guid(46c7347ec6bbf423d9905752824ca1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9866b3ca5168a3cd0fcc26bd7edb8fbb') in 0.008971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/SimpleParticlePack/Resources/Explosions/FlashRingFlame03.prefab
+  artifactKey: Guid(32a7d9c6c26df44cf8a12a037118c5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleParticlePack/Resources/Explosions/FlashRingFlame03.prefab using Guid(32a7d9c6c26df44cf8a12a037118c5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9f3e37cced90a555565265c3ba8e1e') in 0.008913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/SimpleParticlePack/Resources/Explosions/Flash01.prefab
+  artifactKey: Guid(d321a98408cfc4e0299808f65181aab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleParticlePack/Resources/Explosions/Flash01.prefab using Guid(d321a98408cfc4e0299808f65181aab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e80357122c17a596e3c01bd5a150ac2') in 0.008357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/SimpleParticlePack/Resources/Explosions/Explosion05.prefab
+  artifactKey: Guid(f75468363e2394440a081e9c175e6c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleParticlePack/Resources/Explosions/Explosion05.prefab using Guid(f75468363e2394440a081e9c175e6c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bae3c443a6d695d8d00cde76ec0d81b') in 0.009576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/SimpleParticlePack/Resources/Explosions/Explosion04a3.prefab
+  artifactKey: Guid(97a1d7f3a73b04feca9e61ea6cc1a3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleParticlePack/Resources/Explosions/Explosion04a3.prefab using Guid(97a1d7f3a73b04feca9e61ea6cc1a3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5666c953d4d800d85182d39a3adccd') in 0.009874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/SimpleParticlePack/Resources/Explosions/ShockFlame.prefab
+  artifactKey: Guid(57137b89e09584e3e839655c51e6f042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleParticlePack/Resources/Explosions/ShockFlame.prefab using Guid(57137b89e09584e3e839655c51e6f042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bdfd29ef2a14e6ffe7b3c90d78d7812') in 0.058893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/SimpleParticlePack/Resources/Explosions/Explosion01b.prefab
+  artifactKey: Guid(1e47e1a2302b340578c901da5181c6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleParticlePack/Resources/Explosions/Explosion01b.prefab using Guid(1e47e1a2302b340578c901da5181c6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43cd4738597549eb5679b82ca95797a9') in 0.009083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/SimpleParticlePack/Resources/Flares/Flare03-Autumn.prefab
+  artifactKey: Guid(f3fa2416fe26847df991cfc3e8876474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleParticlePack/Resources/Flares/Flare03-Autumn.prefab using Guid(f3fa2416fe26847df991cfc3e8876474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e792be745f847fa651e1cd46ef485be') in 0.008134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Prefabs/Shockwave.prefab
+  artifactKey: Guid(4f2b448ece6bb4940be1ce4a87b8e110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shockwave.prefab using Guid(4f2b448ece6bb4940be1ce4a87b8e110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930fcedea1bcd4f2446fb0a8691db10a') in 0.008509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/SimpleParticlePack/Resources/Flares/Flare02.prefab
+  artifactKey: Guid(c65e964da65b04bdb95be0f0e10a0012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleParticlePack/Resources/Flares/Flare02.prefab using Guid(c65e964da65b04bdb95be0f0e10a0012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dadd019cd0f4eaec9a27234dd9c43d3') in 0.008603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/SimpleParticlePack/Resources/Explosions/Flash02.prefab
+  artifactKey: Guid(3c1f0555cc3fd4e1d87382fbaa007f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleParticlePack/Resources/Explosions/Flash02.prefab using Guid(3c1f0555cc3fd4e1d87382fbaa007f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8c359b1154fda80fda629951381422') in 0.008032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Prefabs/Grass.prefab
+  artifactKey: Guid(ff809012324d5ce4db798c23137b771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grass.prefab using Guid(ff809012324d5ce4db798c23137b771c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a6229a93121ae10329baa2552abad7') in 0.125257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/SimpleParticlePack/Resources/Explosions/Explosion01a.prefab
+  artifactKey: Guid(bf3f387d006f0414b80b25ba2b9cdf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleParticlePack/Resources/Explosions/Explosion01a.prefab using Guid(bf3f387d006f0414b80b25ba2b9cdf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006e411b2c9b48e75d1b9f81ab3fc96c') in 0.012046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/SimpleParticlePack/Resources/Explosions/FlashRingFlame02.prefab
+  artifactKey: Guid(dd8cbd77dc2344187bda7004b1d3f370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleParticlePack/Resources/Explosions/FlashRingFlame02.prefab using Guid(dd8cbd77dc2344187bda7004b1d3f370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d128cb1c8d21e63427fbb2afc2b720') in 0.009947 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
