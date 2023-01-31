@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public bool gameOver;
+    public bool gameOver;// false, true
     public GameObject winnerUI;
     public GameObject player;
 
     private void Update()
     {
-       //is the game over?
+       if (gameOver == true)
+        {
+            GameOver();
+        }//is the game over?
     }
 
     void GameOver() {
